@@ -1,0 +1,124 @@
+{
+    "products": [
+        {
+            "id": "1",
+            "name": "Nike Air Max 270",
+            "brand": "Nike",
+            "category": "Running Shoes",
+            "price": 150,
+            "size": [
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "color": [
+                "Black",
+                "White",
+                "Red"
+            ],
+            "thumbnail": "https://example.com/images/nike_air_max_270_thumbnail.jpg",
+            "images": [
+                "https://example.com/images/nike_air_max_270_1.jpg",
+                "https://example.com/images/nike_air_max_270_2.jpg",
+                "https://example.com/images/nike_air_max_270_3.jpg"
+            ],
+            "description": "The Nike Air Max 270 is a stylish and comfortable running shoe with a large Air Max unit for cushioning.",
+            "rating": 4.5,
+            "reviews": [
+                {
+                    "user": "john_doe",
+                    "comment": "Great shoes, very comfortable!",
+                    "rating": 5
+                },
+                {
+                    "user": "jane_smith",
+                    "comment": "Love the design, but a bit tight.",
+                    "rating": 4
+                }
+            ],
+            "stock": 50
+        },
+        {
+            "id": "2",
+            "name": "Adidas Ultraboost 21",
+            "brand": "Adidas",
+            "category": "Sport Shoes",
+            "price": 180,
+            "size": [
+                "6",
+                "7",
+                "8",
+                "9",
+                "10",
+                "11",
+                "12"
+            ],
+            "color": [
+                "Black",
+                "White",
+                "Blue"
+            ],
+            "thumbnail": "https://example.com/images/adidas_ultraboost_21_thumbnail.jpg",
+            "images": [
+                "https://example.com/images/adidas_ultraboost_21_1.jpg",
+                "https://example.com/images/adidas_ultraboost_21_2.jpg",
+                "https://example.com/images/adidas_ultraboost_21_3.jpg"
+            ],
+            "description": "The Adidas Ultraboost 21 offers exceptional comfort and energy return with its Boost midsole technology.",
+            "rating": 4.7,
+            "reviews": [
+                {
+                    "user": "mike_jones",
+                    "comment": "Best running shoes I've ever had.",
+                    "rating": 5
+                },
+                {
+                    "user": "sarah_lee",
+                    "comment": "Comfortable but a bit expensive.",
+                    "rating": 4
+                }
+            ],
+            "stock": 30
+        }
+    ],
+    "users": [
+        {
+            "id": "u1",
+            "email": "john_doe@example.com",
+            "password": "password123",
+            "full_name": "John Doe",
+            "address": "123 Main St, Springfield, USA",
+            "phone": "0962736518",
+            "orders": [
+                {
+                    "order_id": "o1",
+                    "product_id": "1",
+                    "quantity": 1,
+                    "total_price": 150,
+                    "order_date": "2023-08-01"
+                }
+            ]
+        },
+        {
+            "id": "u2",
+            "email": "kuminsenpai46@gmail.com",
+            "password": "tchamimb",
+            "full_name": "Jane Smith",
+            "address": "456 Elm St, Springfield, USA",
+            "phone": "0988736514",
+            "orders": [
+                {
+                    "order_id": "o2",
+                    "product_id": "2",
+                    "quantity": 2,
+                    "total_price": 360,
+                    "order_date": "2023-08-02"
+                }
+            ]
+        }
+    ]
+}
